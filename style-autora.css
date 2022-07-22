@@ -1,0 +1,171 @@
+body{
+    background-color: #906d8e;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    height: 153px;
+    width: 50%;
+    font-family: 'Cormorant SC', serif;
+    font-size: 30px;
+    text-align: center;
+    margin-left: 270px;
+    margin-bottom: 30px;
+    text-shadow: 3px 4px 5px rgba(128, 128, 128, 0.64);
+}
+nav{
+    width: 574px;
+    height: 45px;
+
+}
+nav a{
+    font-size: 30px;
+    margin: 10px;
+}
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+
+#biografia p, #harry-potter p{
+    font-family: 'EB Garamond', serif;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 90px;
+    text-shadow: 3px 4px 5px rgba(128, 128, 128, 0.64);
+    width: 850px;
+}
+h2{
+    font-weight: bold;
+    font-size: 35px;
+
+}
+div{
+    width: 85%; 
+    border: 2px solid black; 
+    border-radius: 30px; 
+    text-align: center;
+   margin-left: 100px
+ }
+
+#biografia {
+    background-color: #bfb9d1;
+}
+figcaption{
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+}
+figure{
+    margin-top: 20px;
+}
+#biografia div figure figcaption{
+    width: 250px;
+    height: 80px;
+    margin-left: 311px;    
+}
+#harry-potter{
+    background-color: #909a9c;
+    height: 3230px;
+}
+
+.figcaptions-normales{
+    width: 250px;
+    height: 30px;
+    margin-left: 364px;
+}
+#figcaption-largo{
+    height: 50px;
+    width: 250px;
+    margin-left: 364px;
+}
+#citar{
+    width: 850px;
+    height: 100px;
+    font-size: 20px;
+    margin-left: 197px;
+    padding: 12px;
+    background-color: #fffff0;
+}  
+#p-de-citar{
+text-align: center;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+footer{
+     background-color: 	#673147;
+    color: white;
+}
+#p-footer{
+    font-size: 20px;
+text-align: center;
+  
+}
+
+@media(max-width: 1200px){
+    #biografia p, #harry-potter p{
+           margin-left: 70px;
+      
+    }}
+
+ @media(max-width: 1130px){
+     #biografia p, #harry-potter p{
+                  margin-left: 50px;
+       }}
+ @media(max-width: 1080px){
+        #biografia p, #harry-potter p{
+               margin-left: 30px;
+         
+        }}
+
+@media(max-width: 1070px){
+    #biografia p, #harry-potter p{
+        margin-left: 40px;
+        width: 750px;              
+     }
+     #harry-potter{
+        height: 3530px;
+    }
+    
+}
+@media(max-width: 999px){
+    #harry-potter{
+        height: 4000px;
+    }}
+
+ @media(max-width: 990px){
+    #biografia p, #harry-potter p{
+        margin-left: 30px;
+        width: 650px;              
+ }}
+ @media(max-width: 850px){
+    #biografia p, #harry-potter p{
+        margin-left: 20px;
+        width: 550px;              
+ }  
+ #harry-potter{
+    height: 4500px;
+}
+ nav{
+    width: 500px;
+    height: 45px;
+
+}
+
+}
+
+ @media(max-width: 700px){
+    #biografia p, #harry-potter p{
+        margin-left: 10px;
+        width: 500px;              
+ }
+ #harry-potter{
+    height: 4800px;
+}
+}

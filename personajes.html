@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alex+Brush&family=Bilbo+Swash+Caps&family=Edu+NSW+ACT+Foundation&family=My+Soul&family=Pinyon+Script&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style-personajes.css">
+    
+    <title>Personajes de Harry Potter</title>
+</head>
+<body>
+    <header>
+        <h1>Personajes</h1>
+        <nav>
+            <ul>
+                <li> <a class="seleccionar" id="1" href="#estudiante-libro">Estudiantes </a></li>                   
+                <li> <a class="seleccionar" id="2" href="#estudiantes-por-casa">Personajes por casa</a></li>
+                <li> <a class="seleccionar" id="3" href="#todos-los-personajes">Todos los personajes de los libros</a></li>
+                <li> <a class="seleccionar" id="4" href="#personajes-personal-de-hogwarts-libro">Personajes que pertencen al personal de Hogwarts en los libros</a></li>
+            </ul>   
+        </nav>
+        <a href="./personajes.html" class="boton-cerrar"> <span class="material-symbols-outlined">close</span></a>
+    </header>
+    <main>
+        <section id="cajas">
+            <section id="estudiante-libro" class="seleccion1"></section> 
+            <section id="estudiantes-por-casa" class="seleccion2"> 
+                <div id="gryffindor" ></div>
+                <div id="hufflepuff"></div>
+                <div id="ravenclaw"></div>
+                <div id="slytherin"> </div> 
+            </section> 
+             <section id="todos-los-personajes" class="seleccion3"></section> 
+             <section id="personajes-personal-de-hogwarts-libro" class="seleccion4"></section> 
+        </section>
+    </main>
+    <footer>
+        <p>API hecha por Rocio Cárdenas, para el curso de Introducción a Frontend de ADA/Tigre 2022.</p> 
+    </footer>
+
+  <script src="./app-personajes.js"></script>
+</body>
+</html>

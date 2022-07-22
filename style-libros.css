@@ -1,0 +1,66 @@
+body{
+    background-color: #06162D;
+    background-image: url(https://i.pinimg.com/originals/e9/f3/9b/e9f39bf032f944cb51a36a15dd4aae2e.jpg); 
+    background-position: -71px 0px ;
+    background-repeat: repeat-y;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header{
+    height: 150px; 
+
+}
+#hp{
+    font-family: 'IM Fell English SC', serif;
+    color: gold;
+    font-size: 80px;
+    display: flex;
+    justify-content: center;
+}
+a{  
+    background-color: gold;
+    display: flex;
+    justify-content: flex-end;
+    text-decoration: none;
+    width: 25px;
+    margin-left: auto;
+    margin-top: 50px;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+main{
+    width: 80%;
+    margin-left: 170px;
+    margin-top: 30px;
+}
+#pre-libros{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    text-indent: 70px;
+    margin-left: 25px;
+    color: #e4b849;
+}
+
+div{    
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;    
+    margin: 20px;
+}
+.libros{
+    background-color: #d5c5cc;
+    border-radius: 20px;  
+    border: 2px solid black;
+    padding-left: 50px;
+    padding-right: 50px;
+ }

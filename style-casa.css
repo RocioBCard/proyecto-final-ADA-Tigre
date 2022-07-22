@@ -1,0 +1,153 @@
+body{
+    background-color: #9E8E8E;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+header{
+    height: 350px;
+    width: 90%;
+    margin: 0px 74px;
+
+}
+header figure{
+ display: flex;
+ justify-self: center;
+}
+#logo-hp{
+    margin-left: 320px;
+}
+a{
+    text-decoration: none;
+}
+#nav {
+    display: flex;
+    justify-content: space-around;
+
+}
+#nav li{
+list-style: none;
+font-family: 'Cormorant SC', serif;
+    font-size: 45px;
+    color: black;
+    width: 377px;
+    margin: 0px 5px 0px 5px;
+    background-color: #9D9E93;
+    border: 0.5px solid black;
+    border-radius: 50px;
+    padding: 5px;
+    text-align: center;
+
+}
+
+
+body header nav div span a{
+    background-color: #9D9E93;
+    border: 0.5px solid black;
+    color: black;
+    border-radius: 50px;
+    width: 30px;
+    padding: 4px;
+    display: flex;
+    justify-content: center;
+}
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48;
+
+  }
+  #home{
+    margin-left: 1130px;
+  }
+
+.minerva-dicho{
+    font-family: 'Dancing Script', cursive;
+    font-size: 34px;
+    width: 1083px;
+    height: 434px;
+    margin-left: 120px;
+    text-shadow: 3px 3px 3px rgb(236 238 225 / 46%);
+    text-indent: 74px;
+}
+
+h2, aside{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    margin-left: 110px;
+}
+h1{
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 100px;
+}
+.intro-p{
+    text-indent: 75px;
+    width: 900px;
+    height: 200px;
+    margin-left: 130px;
+
+}
+.intro, section{
+    font-family: 'Taviraj', serif;
+    font-size: 20px;
+}
+
+#info-casa-gryffindor p, #info-casa-hufflepuff p, #info-casa-ravenclaw p, #info-casa-slytherin p{
+    width: 1000px;
+    height: 250px;
+    text-indent: 70px;
+    margin-left: 130px;
+}
+#info-casa-gryffindor img, #info-casa-hufflepuff img, #info-casa-ravenclaw img, #info-casa-slytherin img{
+    border-radius: 100px;
+}
+.jefe-casa, .fantasmas-por-casas{
+    font-family: 'Cormorant SC', serif;
+    font-size: 30px;
+    margin-top: 50px;
+    margin-left: 50px ;
+    width: 90%;
+}
+ul{
+    font-family: 'Source Serif Pro', serif;
+    font-size: 28px;
+}
+#test{
+    background-color: #9D9E93;
+    border: 2px solid goldenrod;
+    border-radius: 50px;
+    width: 649px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 100px;
+    margin-left: 312px;
+}
+button{
+    width: 250px;
+    height: 45px;
+    border-radius: 10px;
+    font-size: 25px;
+    background-color: #BABABA;
+    margin-left: 106px;
+}
+button:hover{
+    background-color:#828282;
+
+}
+#pregunta{
+    margin-left: 70px;
+}
+footer{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    background-color: #BAA898;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+

@@ -1,0 +1,97 @@
+body{
+    background-image: url(https://contactcenterhub.es/wp-content/uploads/2019/06/platinum_magic.jpg);
+    background-repeat: no-repeat;
+    background-color: black;
+    background-position: 32px 0px;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+header{
+   
+    height: 142px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
+    margin-bottom: 40px;
+    margin-top: 48px;
+    background-color: #454878;
+    color: #c8c373;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    text-shadow: 3px 3px 3px rgb(236 238 225 / 46%);
+}
+.main{
+    display: flex;
+flex-wrap: wrap;
+justify-content: center;
+margin: 30px 0px;
+}
+#tarjetas{    
+    margin: 10px;
+    width: 95%;
+    border: 1px solid rgb(88, 1, 88);
+    color: #22243c;
+    border-radius: 10px;
+}
+.hechizo{
+    width: 374px;
+    height: 220px;
+    margin: 10px;
+    background-color: #7378c8;
+    font-size: 30px;
+    float: left;
+    border-radius: 10px;
+    font-family: 'Cinzel', serif;
+}
+p{
+  text-align: center;
+
+}
+#texto{
+  font-size: 23px;
+}
+footer{
+    color: #22243c;
+    background-color: #aaadde ;
+    width: 80% ;
+    height: 45px ;
+    text-align: center;
+    font-size: 18px;
+    margin-left: 150px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 15px;
+
+}
+
+@media(max-width: 1245px){ 
+    .hechizo{
+        width: 374px;
+        height: 220px;
+        margin: 10px;
+        background-color: #7378c8;
+        font-size: 30px;
+        float: left;
+        border-radius: 10px;
+        font-family: 'Cinzel', serif;
+    }}
+
+@media(max-width: 1240px){ 
+        .hechizo{
+            width: 374px;
+            height: 220px;
+          margin: 10px;
+        }
+            #tarjetas{
+                margin: 10px;
+                width: 70%;
+            }}
+ 
+@media(max-width: 1130px){   
+    #tarjetas{
+        width: 35%;
+    }          }

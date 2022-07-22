@@ -1,0 +1,146 @@
+ body {
+    background-image: url(https://wallpaperaccess.com/full/962098.jpg);
+    background-repeat: repeat-y;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+h1{
+    font-family: 'IM Fell English SC', serif;
+    color: gold;
+    font-size: 80px;
+    display: flex;
+    justify-content: center;
+}
+header{
+    height: 300px;
+}
+nav{
+ background-color:#452448;
+    width: 90%;
+    border-radius: 10px;
+    margin-left: 80px;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    font-size: 30px;
+    padding-left: 25px;
+}
+
+a{
+    text-decoration: none;
+    color:#FFEB86;
+}
+
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48
+  }
+
+.boton-cerrar{  
+      background-color: gold;
+      color: silver;
+      display: flex;
+      justify-content: flex-end;
+      text-decoration: none;
+      width: 25px;
+      margin-left: auto;
+      margin-top: 50px;
+  }
+  
+.agregar{
+   background-color: #bc81d8;
+   width: 341px;
+   height: 789px;
+   font-size: 20px;
+   float: left;
+   margin: 25px;
+   border-radius: 10px;
+   box-shadow: 10px 10px 15px 0px rgba(0,0,0,0.75);  
+  }
+
+  #cajas{
+    margin-left: 60px;
+  }
+.figure-est-book{
+    display: flex;
+    justify-content: center;
+    border: .5 solid transparent;
+}
+
+.info-estudiante-libro {
+    height: 400px;
+    overflow: scroll;
+    overflow-x: hidden;
+    font-size: 30px;
+    margin-left: 15px;
+  }
+
+.slytherin{
+    background-color: #177553;
+    font-family: 'My Soul', cursive;
+    font-weight: bold;
+}
+.ravenclaw{
+    background-color: #54699F;
+    font-family: 'Alex Brush', cursive;
+    font-weight: bold;
+}
+.hufflepuff{
+    background-color: #F1C036;
+    font-family: 'Bilbo Swash Caps', cursive;
+    font-weight: bold;
+}
+.gryffindor{
+    background-color: #9A1C1F;
+    font-family: 'Pinyon Script', cursive;
+    font-weight: bold;
+}
+#estudiante-libro, #todos-los-personajes, #personajes-personal-de-hogwarts-libro{
+    font-family: 'Edu NSW ACT Foundation', cursive;
+}
+
+footer{
+    clear: both;
+    font-size: 25px;
+    text-align: center;
+    color:white;
+}
+
+
+@media(max-width: 1230px){
+
+    .agregar{ 
+          width: 300px;}}
+
+@media(max-width: 1000px){
+    nav{
+        width: 750px;
+    }}
+ @media(max-width: 970px){
+    footer{
+    height: 60px;
+    }
+    }
+
+@media(max-width: 860px){
+    nav{
+        width: 550px;
+       
+    } 
+    .agregar{
+        margin-top: 50px;}}
+
+@media(max-width: 757px){
+    nav{
+        width: 450px;
+    } 
+    .agregar{
+        margin-top: 120px;
+        margin-left: 90px;
+    }}
+@media(max-width: 540px){
+   footer{
+    width: 450px;
+   }}
